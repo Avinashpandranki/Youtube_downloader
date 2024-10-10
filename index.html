@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Downloader</title>
+</head>
+<body>
+    <h1>YouTube Video Downloader</h1>
+    <form action="/download" method="post">
+        <label for="url">YouTube Video URL:</label><br>
+        <input type="text" id="url" name="url" required><br><br>
+        <input type="submit" value="Download Video">
+    </form>
+
+    <h1>YouTube Video Format Checker</h1>
+    <form action="/list-formats" method="post">
+        <label for="url">YouTube Video URL:</label><br>
+        <input type="text" id="url" name="url" required><br><br>
+        <input type="submit" value="List Formats">
+    </form>
+</body>
+</html>
